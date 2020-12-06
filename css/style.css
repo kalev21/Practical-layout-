@@ -1,3 +1,36 @@
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+.features-text-block {
+    display: inline-block;  /* появляются отступы  */
+    width: 33%;
+    vertical-align: top;
+    text-align: center;
+}
+.features-text-sub {
+    color: #373737;
+    min-height: 37px;      /* фикс для высоты блоков с параграфами */
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.features-text-title {
+    margin-bottom: 4px;
+    color: #f39003;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+.features-cards__block {
+    background-color: blueviolet;
+}
+.features-cards__img {
+    display: inline-block;
+}
+.features-cards__text {
+    display: inline-block;
 }
