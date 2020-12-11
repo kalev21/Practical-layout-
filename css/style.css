@@ -9,6 +9,11 @@ h1, h2, h3, p {
     max-width: 960px;
     width: auto;
     margin: 0 auto;
+    text-align: center;
+}
+.features {
+    background-color: #f4f4f4;
+    height: 514px;
 }
 .features-text-block {
     display: inline-block;  /* появляются отступы  */
@@ -29,11 +34,6 @@ h1, h2, h3, p {
     font-size: 36px;
     font-weight: 900;
     text-align: center;
-}
-
-.features {
-    background-color: #f4f4f4;
-    height: 514px;
 }
 /* 1 ряд с карточками Начало */
 .card-prod {
@@ -81,11 +81,19 @@ h1, h2, h3, p {
     display: inline-block;
 }
 /* Конец */
-.img {
-    display: inline-block;
-    vertical-align: middle;
+/* Блок продукции Коробки Начало */
+.prod-sector {
+    margin-top: 57px;
+    text-align: center;
 }
-.card-descr {
+.product {
+    margin-top: 31px;
+}
+.box1, .box3 {
     display: inline-block;
-    vertical-align: middle;
+    width: 50%;
+}
+.box2, .box4 {
+    display: inline-block;
+    width: 48%;
 }
