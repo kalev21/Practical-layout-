@@ -5,6 +5,11 @@ body {
 h1, h2, h3, p {
     margin: 0;
 }
+.container {
+    max-width: 960px;
+    width: auto;
+    margin: 0 auto;
+}
 .features-text-block {
     display: inline-block;  /* появляются отступы  */
     width: 33%;
@@ -25,12 +30,62 @@ h1, h2, h3, p {
     font-weight: 900;
     text-align: center;
 }
-.features-cards__block {
-    background-color: blueviolet;
+
+.features {
+    background-color: #f4f4f4;
+    height: 514px;
 }
-.features-cards__img {
+/* 1 ряд с карточками Начало */
+.card-prod {
+    background-color: #ffffff;
+    width: 31%;
+    padding: 20px 20px 25px 0;
+    margin-top: 37px;
+    margin-bottom: 30px;
+    margin-right: 30px;
     display: inline-block;
 }
-.features-cards__text {
+.card-sample {
+    background-color: #ffffff;
+    width: 31%;
+    padding: 20px 20px 25px 0;
+    margin-right: 30px;
     display: inline-block;
+}
+.card-quality {
+    background-color: #ffffff;
+    width: 31%;
+    padding: 15px 20px 25px 0;
+    display: inline-block;
+}
+/* Конец */
+/* 2 ряд с карточками Начало */
+.card-stock {
+    background-color: #ffffff;
+    width: 31%;
+    padding: 20px 20px 25px 0;
+    margin-right: 30px;
+    display: inline-block;
+}
+.card-print {
+    background-color: #ffffff;
+    width: 31%;
+    padding: 20px 20px 25px 0;
+    margin-right: 30px;
+    display: inline-block;
+}
+.card-add {
+    background-color: #ffffff;
+    width: 31%;
+    padding: 20px 20px 25px 0;
+    display: inline-block;
+}
+/* Конец */
+.img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.card-descr {
+    display: inline-block;
+    vertical-align: middle;
 }
